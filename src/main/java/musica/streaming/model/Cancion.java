@@ -5,9 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Data //Genera los Getters y Setters para leer y modificar cada atributo, tambien modifica el toString para poder imprimir el objeto como texto, tambien el equals y hascode
+@NoArgsConstructor // Permite crear el objeto sin declarar los atributos con los setters
+@AllArgsConstructor // Este crea el objeto con todos los atributos
 
 public class Cancion {
     
